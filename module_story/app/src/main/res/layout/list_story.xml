@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cv_story"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+
+                android:background="@color/colorPrimary"
+                android:layout_width="5dp"
+                android:layout_height="133dp"/>
+            <ImageView
+
+                android:layout_marginEnd="@dimen/space_large"
+                android:layout_marginTop="14dp"
+                android:id="@+id/iv_story"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/space_large"
+                android:layout_marginStart="@dimen/space_large"
+                android:id="@+id/tv_title"
+
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="#000000"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginStart="@dimen/space_large"
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title"
+                android:layout_marginTop="10dp"
+                android:text="Author"
+                android:textColor="#000000"
+                android:textSize="@dimen/author_size"
+               />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

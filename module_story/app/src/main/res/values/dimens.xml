@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_large">5dp</dimen>
+    <dimen name="title_size">18dp</dimen>
+    <dimen name="author_size">10dp</dimen>
+</resources>
